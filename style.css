@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(6, 6, 32);
+    font-family: latoweb;
+    margin: 0px;
+    padding: 0px;
+
+}
+section {
+  
+    box-shadow: 0px 0px 0px 0px #f8f5f585;
+   
+    font-family: "lato";
+    font-size: large;
+    font-weight: bold;
+    font-weight: 1000;
+
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+ 
+   
+}
+.sec{
+    background-color: rgb(75, 197, 239);
+    width: 100%;
+}
+h1{
+    font-weight: 700;
+    color: rgb(248, 252, 248);
+    text-align: center;
+    font-family: "latoweb";
+}
+.list{
+    display: flex;
+    list-style: none;
+}
+.list li{
+    padding: 4%;
+    text-decoration: none;
+}
+.list li a{
+    text-decoration: none;
+    font-family: latoweb;
+    color: white;
+}
+.container{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.cont{
+    width: 100%;
+}
+.picha img{
+    width: 100%;
+    animation-name: riziki;
+    animation-duration: 5s;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+ 
+}
+@keyframes riziki {
+    /* 0%{
+        transform:translateX(0%);
+    } */
+    0%,100%{
+        transform: translateX(6%);
+    }
+    
+    /* 50%{
+        transform: translateX(0%);
+    } */
+    50%{
+        transform: translateX(-6%);
+    }
+    /* 100%{
+        transform:translateX(0%)
+    } */
+}
